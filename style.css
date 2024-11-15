@@ -39,6 +39,7 @@ nav a {
     align-items: center;
     justify-content: center;
     height: 30vh;
+    margin-top: 50px;
 }
 
 
@@ -50,4 +51,12 @@ footer{
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+.product {
+    text-align: center; /* จัดเนื้อหาภายในให้ตรงกลาง */
+}
+
+.product img {
+    display: block; /* เปลี่ยน `img` ให้เป็น block เพื่อใช้ margin */
+    margin: 0 auto; /* กำหนด margin ซ้ายขวาเป็น auto เพื่อให้ตรงกลาง */
 }
